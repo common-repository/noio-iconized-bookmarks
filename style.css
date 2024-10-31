@@ -1,0 +1,53 @@
+.favicon-table th {
+	padding: 4px;
+}
+
+
+
+.favicon-table tr:nth-child(odd) {
+	background: #eee;
+}
+
+.favicon-table .icon{
+	float:left;
+	height: 16px;
+	width: 16px;
+	margin: 6px;
+}
+
+.favicon-table .icon.final{
+	margin:4px;
+	border:2px dashed #bbb;
+	margin-left: 32px;
+}
+
+.favicon-table th{
+	text-align: left;
+	font-weight: bold;
+}
+
+.favicon-table a{
+	float: left;
+	text-indent: -9999px;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: 6px;
+	background: url('select.png');
+}
+
+.favicon-table a:hover{
+	background: url('select-hover.png');
+}
+
+.favicon-table .set-custom{
+	height: 16px;
+	width: 40px;
+	margin: 6px;
+	background: url('set.png');
+	border: none;
+}
+
+.favicon-table .set-custom:hover{
+	background: url('set-hover.png');
+}
